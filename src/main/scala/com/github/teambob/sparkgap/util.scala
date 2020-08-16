@@ -29,6 +29,9 @@ import org.apache.spark.sql.types.StringType
 import scala.collection.JavaConverters.asScalaIteratorConverter
 import scala.collection.mutable.ListBuffer
 
+/**
+ * Utility object
+ */
 object util {
   /**
    * Register all UDFs in the udf object
